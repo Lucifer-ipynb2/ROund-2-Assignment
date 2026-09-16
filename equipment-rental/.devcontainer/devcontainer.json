@@ -1,0 +1,1 @@
+{"name":"AVRent","image":"mcr.microsoft.com/devcontainers/python:1-3.12-bookworm","features":{"ghcr.io/devcontainers/features/node:1":{"version":"22"}},"forwardPorts":[8000,5173],"postCreateCommand":"cd backend && pip install -r requirements.txt && cd ../frontend && npm install"}
